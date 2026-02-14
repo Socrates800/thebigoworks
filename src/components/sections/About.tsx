@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { STATS } from "@/lib/constants";
@@ -17,15 +18,15 @@ export function About() {
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6 }}
-            className="relative"
+            className="relative aspect-[4/3] rounded-2xl border border-border overflow-hidden bg-bg-secondary"
           >
-            <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-accent/20 to-accent-secondary/20 dark:from-accent/10 dark:to-accent-secondary/10 border border-border overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full bg-accent/20 dark:bg-accent/10 flex items-center justify-center">
-                  <span className="font-heading font-bold text-4xl text-accent">O</span>
-                </div>
-              </div>
-            </div>
+            <Image
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+              alt="The Big O Works — global partner for digital excellence"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
           </motion.div>
 
           <div>

@@ -37,13 +37,13 @@ export function WhyChooseUs() {
               transition={{ delay: i * 0.06, duration: 0.4 }}
             >
               <motion.article
-                className="flex gap-4 p-6 rounded-2xl border border-border bg-bg-card hover:border-accent/30 transition-colors"
+                className="flex items-center gap-4 p-6 rounded-2xl border border-border bg-bg-card hover:border-accent/30 transition-colors"
                 whileHover={{ scale: 1.02 }}
               >
                 <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center text-accent">
                   <WhyChooseIcon name={item.icon} className="w-5 h-5" />
                 </div>
-                <h3 className="font-heading font-semibold text-text-primary">
+                <h3 className="font-heading font-semibold text-text-primary flex-1 min-w-0">
                   {item.title}
                 </h3>
               </motion.article>

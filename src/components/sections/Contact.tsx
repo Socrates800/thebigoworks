@@ -61,7 +61,7 @@ export function Contact() {
               </div>
             </a>
             <a
-              href="https://wa.me/351912345678"
+              href="https://wa.me/351913624470"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 rounded-xl border border-border bg-bg-card hover:border-accent/50 transition-colors"
@@ -73,9 +73,32 @@ export function Contact() {
               </div>
               <div>
                 <p className="font-heading font-medium text-text-primary">WhatsApp</p>
-                <p className="text-sm text-text-muted">Chat with us</p>
+                <p className="text-sm text-text-muted">+351 913 624 470</p>
               </div>
             </a>
+            <div className="flex items-center gap-4 p-4 rounded-xl border border-border bg-bg-card">
+              <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent flex-shrink-0">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-heading font-medium text-text-primary">Lisbon</p>
+                <p className="text-sm text-text-muted">Lisbon, Portugal</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-4 p-4 rounded-xl border border-border bg-bg-card">
+              <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center text-accent flex-shrink-0">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-heading font-medium text-text-primary">Office &amp; Team</p>
+                <p className="text-sm text-text-muted">Lahore, Pakistan</p>
+              </div>
+            </div>
             <Button href="#contact" variant="outline" className="w-full sm:w-auto">
               Book consultation
             </Button>
