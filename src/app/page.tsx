@@ -2,6 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
+import { CeoSection } from "@/components/sections/CeoSection";
 import { Services } from "@/components/sections/Services";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { Process } from "@/components/sections/Process";
@@ -26,6 +27,7 @@ export default function Home() {
       <main id="main-content">
         <Hero />
         <About />
+        <CeoSection />
         <Services />
         <WhyChooseUs />
         <Process />
